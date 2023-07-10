@@ -1,0 +1,4 @@
+argparse
+wandb
+transformers == 4.21.1
+stable-baselines3 == 1.6.2

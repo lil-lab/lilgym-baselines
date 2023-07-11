@@ -1,6 +1,6 @@
 # lilGym Baselines
 
-This repository contains example code for training the baselines of the paper [*lil*Gym: Natural Language Visual Reasoning with Reinforcement Learning](https://aclanthology.org/2023.acl-long.512/). 
+This repository contains example code for training the baselines of the paper [*lil*Gym: Natural Language Visual Reasoning with Reinforcement Learning](https://aclanthology.org/2023.acl-long.512/). Trained models on Zenodo: [link](https://zenodo.org/record/8128780).
 
 [paper](https://aclanthology.org/2023.acl-long.512/) | TL;DR [tweet](https://twitter.com/yoavartzi/status/1605400521816346624) | [env code & data](https://github.com/lil-lab/lilgym) | [website](lil.nlp.cornell.edu/lilgym)
 
@@ -39,5 +39,4 @@ python main.py --env-name TowerFlipIt-v0 --env-opt tower --learn-opt flipit --al
 
 ## Acknoledgements
 
-The RL framework is built on top of [Kostrikov, 2018](https://github.com/ikostrikov/pytorch-a2c-ppo-acktr-gail).
-We thank authors for open-sourcing their code.
+The RL code is based on [Kostrikov, 2018](https://github.com/ikostrikov/pytorch-a2c-ppo-acktr-gail). We thank the authors for open-sourcing their code.
